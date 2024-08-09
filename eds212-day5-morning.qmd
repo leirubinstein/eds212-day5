@@ -1,0 +1,12 @@
+---
+title: "Day 5 morning session"
+author: "Leilanie Rubinstein"
+format: html
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r}
+library(tidyverse)
+```
+
