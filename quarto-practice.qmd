@@ -46,12 +46,13 @@ ggplot(data = starwars, aes(x = height)) +
 ```
 
 `df$col_name1`
-```{r}
 
-(sw_height_mean <- mean(starwars$height, na.rm = TRUE)), 3)
+```{r}                                                              
+
+(sw_height_mean <- round(mean(starwars$height, na.rm = TRUE), 3))
 ```
 
-The mean height of all star wars characters is 
+
 
 
 
