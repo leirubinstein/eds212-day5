@@ -47,8 +47,7 @@ ggplot(data = starwars, aes(x = height)) +
 
 `df$col_name1`
 
-```{r}                                                              
-
+```{r}                                                        
 (sw_height_mean <- round(mean(starwars$height, na.rm = TRUE), 3))
 ```
 
